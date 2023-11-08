@@ -5,13 +5,13 @@
 }
 
 :root {
-  --hue-neutral: 200;
-  --hue-wrong: 0;
-  --hue-correct: 145;
+  --hue-neutral: 40;
+  --hue-wrong: 20;
+  --hue-correct: 120;
 }
 
 body {
-  background-image: url(img/Gil-vicente_Prancheta-1-cópia-21.jpg);
+  background-image: url(img/Gil-vicente_Prancheta-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
@@ -85,4 +85,8 @@ body.wrong {
 
 .hide {
   display: none;
+}
+
+#points {
+  background-color: red;
 }
